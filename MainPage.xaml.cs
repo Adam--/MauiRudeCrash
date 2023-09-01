@@ -7,6 +7,8 @@
         public MainPage()
         {
             InitializeComponent();
+
+            throw new Exception("This is a rude crash!");
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
